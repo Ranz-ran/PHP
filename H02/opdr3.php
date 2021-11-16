@@ -10,3 +10,4 @@ echo $b.$a.$c;
 echo $b.$c.$a;
 echo $c.$a.$b;
 echo $c.$b.$a;
+?>
