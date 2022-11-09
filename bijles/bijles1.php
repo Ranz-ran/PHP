@@ -15,20 +15,11 @@
 * Print alle namen van de docenten op het scherm behalve die van Joey
  */
 
- 
-
- 
-
 //variabelen
-
 //$lastName = "Orsel";
-
 //$rory = "Rory";
-
 //echo $lastName . "<br>";
-
 //echo "<br>";
-
 //echo $rory;
 
  
@@ -36,15 +27,10 @@
 $names = [
 
     'Rita',
-
     'Rory',
-
     'Guillaume',
-
     'Jorn',
-
     'Joey'
-
 ];
 
 //JSC($names);
@@ -68,22 +54,14 @@ for($i = 0; $i < 5; $i++){
         if($names[$i] == "Rita"){
 
             echo "Rita is de beste!" . "<br>";
-
+            
         } else {
-
-           
-
         }
 
     } else {
-
         echo $names[$i] . " is geweldig!"; //$names[0] | $names[1] |
-
         echo "<br>";
-
     }
-
-   
 
 }
 
@@ -92,35 +70,19 @@ for($i = 0; $i < 5; $i++){
 echo add(2, 3); //Rita-voorbeeld (met woef)
 
 function add($numberOne, $numberTwo){
-
     $result = $numberOne + $numberTwo;
-
     return $result;
-
 }
 
 function JSC($input){
-
     echo "<pre>";
-
     print_r($input);
-
     echo "</pre>";
-
 }
 
 //array
-
 //
-
-//for loo
-
+//for loop
 //if else
-
- 
-
 //functions
-
- 
-
 //php specifieke dingen zoals $_POST

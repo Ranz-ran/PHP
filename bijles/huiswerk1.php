@@ -13,3 +13,18 @@ Zoek vast uit wat $_POST is, wat cookies zijn en wat sessions zijn.
 Zoek vast uit hoe je verbinding kan maken met een database in PHP.
 */
 
+$Getallen = [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+]
+
+    echo $docenten[$i];
+    echo "<br>";
